@@ -3,7 +3,7 @@ on:
   schedule:
     - cron: '*/30 * * * *'
 jobs:
- run:
-  runs-on: ubuntu-latest
-  steps:
-   -run: date
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - run: date
